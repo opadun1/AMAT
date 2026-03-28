@@ -1,0 +1,36 @@
+# Docker ignore file
+.git
+.github
+
+# Virtual environment
+.venv
+
+# Python cache files
+*.pyc
+*.pyo
+__pycache__
+.pytest_cache
+.ruff_cache
+
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+
+build/
+dist/
+*.egg-info
+
+bibliometric-data
+cost-data
+data
+examples
+feasibility-charts
+interplanetary-data
+interplanetary-data-plots
+interplanetary-data-private
+paper
+permissions
+plots
+references
