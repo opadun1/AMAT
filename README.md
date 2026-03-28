@@ -130,6 +130,12 @@ To build docs locally if you made changes to the source code
 (you must have the dependencies in ```pyproject.toml [docs]``` installed with `uv sync --frozen --group docs`):
   * ```$ cd AMAT/docs```
   * ```$ make html```
+
+## Docker
+To run the tests in a Docker container, you can use the provided Dockerfile.
+```bash
+docker compose up --build
+```
   
 ## License
 
